@@ -1,0 +1,18 @@
+.title__section {
+
+}
+
+.title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  text-transform: capitalize;
+}
+
+.underline {
+  width: 6rem;
+  height: 0.25rem;
+  /* background: #49a6e9; */
+  background: red;
+  margin:auto;
+  margin-bottom: 4rem;
+}

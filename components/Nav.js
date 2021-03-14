@@ -5,7 +5,8 @@ const Nav = ({toggleSidebar}) => {
   return (
     <header>
       <div className="section-center">
-      <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+      {/* <img src="/vercel.svg" alt="Vercel Logo" className="logo" /> */}
+      <h4 className="logo">Optimus<span>Pro</span> </h4>
         <nav>
           <Link href="/" className="nav__link">
             <a>Home</a>
