@@ -7,6 +7,7 @@ import Link from 'next/link'
 import ReactPlayer from 'react-player'
 import Layout from '../components/Layout'
 import styles from '@/styles/Home.module.css'
+import { FiTrello, FiFramer, FiFigma } from 'react-icons/fi'
 
 export default function Home() {
   const [isPlaying, setIsPlaying] = React.useState(true)
@@ -116,28 +117,119 @@ export default function Home() {
           </div>
         </Section>
 
-        <section className=' page-100 our__story'>
+        <section className='section our__story'>
           <div className='story__content section-center'>
-            <h1 className="story__title">What's our story?</h1>
+            <h1 className='story__title'>What's our story?</h1>
 
-            <div className="who_we_are">
+            <div className='who_we_are'>
               <h4>Who we are</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minima quod qui rem, quo voluptas maxime dolorum laudantium beatae delectus. quo voluptas maxime dolorum laudantium beatae delectus. quo voluptas maxime dolorum laudantium beatae delectus.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                minima quod qui rem, quo voluptas maxime dolorum laudantium
+                beatae delectus. quo voluptas maxime dolorum laudantium beatae
+                delectus. quo voluptas maxime dolorum laudantium beatae
+                delectus.
+              </p>
             </div>
-            <div className="who_we_are">
+            <div className='who_we_are'>
               <h4>Our Vision</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minima quod qui rem, quo voluptas maxime dolorum laudantium beatae delectus.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                minima quod qui rem, quo voluptas maxime dolorum laudantium
+                beatae delectus.
+              </p>
             </div>
-            <div className="who_we_are">
+            <div className='who_we_are'>
               <h4>Our Mission</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus minima quod qui rem, quo voluptas maxime dolorum laudantium beatae delectus.</p>
-              <Link href="/default">
-              <a>Learn More</a>
-            </Link>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                minima quod qui rem, quo voluptas maxime dolorum laudantium
+                beatae delectus.
+              </p>
+              <Link href='/default'>
+                <a>Learn More</a>
+              </Link>
             </div>
-            
           </div>
         </section>
+
+        <Section>
+          <Title title='Why Optimus pro' />
+          <div className='row'>
+            <div className='col-md-4'>
+              <div className='why__card'>
+                <div className='icon_box'>
+                  <FiTrello className='icon' />
+                </div>
+                <div className='text'>
+                  <h4>Why Optimus</h4>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Ipsum ipsa atque dolor totam? Sed totam eum quis, harum quia
+                    voluptates!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-md-4'>
+              <div className='why__card'>
+                <div className='icon_box'>
+                  <FiFramer className='icon' />
+                </div>
+                <div className='text'>
+                  <h4>Why Optimus</h4>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Ipsum ipsa atque dolor totam? Sed totam eum quis, harum quia
+                    voluptates!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className='col-md-4'>
+              <div className='why__card'>
+                <div className='icon_box'>
+                  <FiFigma className='icon' />
+                </div>
+                <div className='text'>
+                  <h4>Why Optimus</h4>
+                  <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Ipsum ipsa atque dolor totam? Sed totam eum quis, harum quia
+                    voluptates!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Section>
+
+
+        <Section>
+          <Title title='The Markets' />
+          <div className='row'>
+            <div className='col-md-6'>
+              <div className='market__card crypto'>
+                <h2>Cryptocurrency</h2>
+              </div>
+            </div>
+            <div className='col-md-6'>
+              <div className='market__card forex'>
+                <h2>Forex</h2>
+              </div>
+            </div>
+            <div className='col-md-6'>
+              <div className='market__card stock'>
+                <h2>Stock</h2>
+              </div>
+            </div>
+            <div className='col-md-6'>
+              <div className='market__card commodity'>
+                <h2>Commodites</h2>
+              </div>
+            </div>
+          </div>
+        </Section>
       </Layout>
     </div>
   )

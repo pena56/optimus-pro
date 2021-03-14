@@ -368,6 +368,89 @@ nav a {
   font-family: 'Lato', sans-serif;
 }
 
+.why__card {
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 2rem;
+}
+
+.icon {
+  font-size: 3rem;
+  color: #8d2323;
+  
+}
+
+.icon_box {
+  width: 80px;
+  height: 80px;
+  border: solid 1px #8d2323;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.market__card {
+  background: #333;
+  height: 280px;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.699);
+  border-radius: 6px;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  transition: all 0.7s ease-in-out;
+}
+.market__card:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.027));
+}
+
+.crypto {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.5), rgba(63, 7, 7, 0.144)), url('../public/crypto.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.crypto:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(63, 7, 7, 0)), url('../public/crypto.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.forex {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.5), rgba(63, 7, 7, 0.144)), url('../public/forex.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.forex:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(63, 7, 7, 0)), url('../public/forex.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.stock {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.5), rgba(63, 7, 7, 0.144)), url('../public/stock.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.stock:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(63, 7, 7, 0)), url('../public/stock.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.commodity {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.5), rgba(63, 7, 7, 0.144)), url('../public/commodity.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.commodity:hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(63, 7, 7, 0)), url('../public/commodity.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
 @media screen and (max-width: 980px) {
   .service__section {
     width: 100%;
