@@ -321,7 +321,7 @@ nav a {
 
 
 .service__section {
-  margin-top: 2rem;
+  margin-top: 6rem;
 }
 
 .service__img img{
@@ -451,6 +451,55 @@ nav a {
   background-size: cover;
 }
 
+.team__card {
+  width: 25rem;
+  padding: 10px;
+  position: relative;
+  /* height: 20rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8rem;
+  object-fit: cover;
+  transition: all 0.7s ease-in-out;
+}
+
+.team__card .team__img {
+  border-radius: 6px;
+  /* opacity: 0.9; */
+  border-top-left-radius: 10rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.7s ease-in-out;
+  opacity: 0.8;
+}
+
+.team__img:hover {
+  opacity: 1;
+  border-top-left-radius: 0rem;
+}
+
+.team__card .text {
+  transition: all 0.7s ease-in-out;
+  position: absolute;
+  bottom: -6rem;
+  padding: 1.5rem;
+  background:rgba(0, 10, 14, 0.924);
+  width: 80%;
+  color: #ffff;
+  border-radius: 6px;
+  border-bottom-left-radius: 5rem;
+  font-size: 0.8rem;
+}
+
+.team__card .text:hover {
+  background: #333;
+}
+
+.text .username {
+  font-weight: 900;
+  font-family: 'Lato', sans-serif;
+}
+
 @media screen and (max-width: 980px) {
   .service__section {
     width: 100%;
@@ -473,6 +522,15 @@ nav a {
     width: 90%;
     margin: 3rem auto;
     color: #fff;
+  }
+
+  .team__card {
+    margin-bottom: 8rem;
+    width: 20rem
+  }
+
+  .team__card .text {
+    padding: 1rem 2rem;
   }
 }
 

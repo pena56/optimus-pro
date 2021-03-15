@@ -204,7 +204,6 @@ export default function Home() {
           </div>
         </Section>
 
-
         <Section>
           <Title title='The Markets' />
           <div className='row'>
@@ -226,6 +225,71 @@ export default function Home() {
             <div className='col-md-6'>
               <div className='market__card commodity'>
                 <h2>Commodites</h2>
+              </div>
+            </div>
+          </div>
+        </Section>
+
+        <Section>
+          <Title title='Meet our Leadership team' />
+          <div className='team__container'>
+            <div className='row'>
+              <div className='col-md-4 mx-auto'>
+                <div className='team__card'>
+                  <div>
+                    <img
+                      src='./user.jpg'
+                      alt='team-image'
+                      className='team__img'
+                    />
+                    <div className='text'>
+                      <h4 className="username">Michael Sloggett</h4>
+                      <h5>Founder - Lead Trainer & Technical Analyst</h5>
+                      <p>
+                        Michael is one of our founders and Lead Trainers here at
+                        MBA. Michael has been a profitable trader.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-4 mx-auto'>
+                <div className='team__card'>
+                  <div>
+                    <img
+                      src='./user.jpg'
+                      alt='team-image'
+                      className='team__img'
+                    />
+                    <div className='text'>
+                      <h4 className="username">Jason Grigg</h4>
+                      <h5>Founder - Lead Trainer & Technical Analyst</h5>
+                      <p>
+                        Michael is one of our founders and Lead Trainers here at
+                        MBA. Michael has been a profitable trader.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-4 mx-auto'>
+                <div className='team__card'>
+                  <div>
+                    <img
+                      src='./user.jpg'
+                      alt='team-image'
+                      className='team__img'
+                    />
+                    <div className='text'>
+                      <h4 className="username">Michael Sloggett</h4>
+                      <h5>Founder - Lead Trainer & Technical Analyst</h5>
+                      <p>
+                        Michael is one of our founders and Lead Trainers here at
+                        MBA. Michael has been a profitable trader.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
