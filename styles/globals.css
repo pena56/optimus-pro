@@ -452,7 +452,8 @@ nav a {
 }
 
 .team__card {
-  width: 25rem;
+  /* width: 25rem; */
+  margin: auto;
   padding: 10px;
   position: relative;
   /* height: 20rem; */
@@ -481,10 +482,11 @@ nav a {
 .team__card .text {
   transition: all 0.7s ease-in-out;
   position: absolute;
-  bottom: -6rem;
-  padding: 1.5rem;
+  bottom: -4rem;
+  padding: 1.5rem 1rem;
   background:rgba(0, 10, 14, 0.924);
   width: 80%;
+  height: 11rem;
   color: #ffff;
   border-radius: 6px;
   border-bottom-left-radius: 5rem;
@@ -526,7 +528,7 @@ nav a {
 
   .team__card {
     margin-bottom: 8rem;
-    width: 20rem
+    /* width: 10rem; */
   }
 
   .team__card .text {

@@ -234,7 +234,7 @@ export default function Home() {
           <Title title='Meet our Leadership team' />
           <div className='team__container'>
             <div className='row'>
-              <div className='col-md-4 mx-auto'>
+              <div className='col-md-4 col-sm-4  mx-auto'>
                 <div className='team__card'>
                   <div>
                     <img
@@ -245,15 +245,15 @@ export default function Home() {
                     <div className='text'>
                       <h4 className="username">Michael Sloggett</h4>
                       <h5>Founder - Lead Trainer & Technical Analyst</h5>
-                      <p>
+                      {/* <p>
                         Michael is one of our founders and Lead Trainers here at
                         MBA. Michael has been a profitable trader.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='col-md-4 mx-auto'>
+              <div className='col-md-4 col-sm-4 mx-auto'>
                 <div className='team__card'>
                   <div>
                     <img
@@ -264,15 +264,15 @@ export default function Home() {
                     <div className='text'>
                       <h4 className="username">Jason Grigg</h4>
                       <h5>Founder - Lead Trainer & Technical Analyst</h5>
-                      <p>
+                      {/* <p>
                         Michael is one of our founders and Lead Trainers here at
                         MBA. Michael has been a profitable trader.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
               </div>
-              <div className='col-md-4 mx-auto'>
+              <div className='col-md-4 col-sm-4 mx-auto'>
                 <div className='team__card'>
                   <div>
                     <img
@@ -283,13 +283,26 @@ export default function Home() {
                     <div className='text'>
                       <h4 className="username">Michael Sloggett</h4>
                       <h5>Founder - Lead Trainer & Technical Analyst</h5>
-                      <p>
+                      {/* <p>
                         Michael is one of our founders and Lead Trainers here at
                         MBA. Michael has been a profitable trader.
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </Section>
+        <Section>
+          <Title title="Out Insights" />
+
+          <div className="recent__blog">
+            <div className="row">
+              <div className="col-md-4 mx-auto">
+                <article className="article__card">
+
+                </article>
               </div>
             </div>
           </div>
