@@ -243,7 +243,7 @@ export default function Home() {
                       className='team__img'
                     />
                     <div className='text'>
-                      <h4 className="username">Michael Sloggett</h4>
+                      <h4 className='username'>Michael Sloggett</h4>
                       <h5>Founder - Lead Trainer & Technical Analyst</h5>
                       {/* <p>
                         Michael is one of our founders and Lead Trainers here at
@@ -262,7 +262,7 @@ export default function Home() {
                       className='team__img'
                     />
                     <div className='text'>
-                      <h4 className="username">Jason Grigg</h4>
+                      <h4 className='username'>Jason Grigg</h4>
                       <h5>Founder - Lead Trainer & Technical Analyst</h5>
                       {/* <p>
                         Michael is one of our founders and Lead Trainers here at
@@ -281,7 +281,7 @@ export default function Home() {
                       className='team__img'
                     />
                     <div className='text'>
-                      <h4 className="username">Michael Sloggett</h4>
+                      <h4 className='username'>Michael Sloggett</h4>
                       <h5>Founder - Lead Trainer & Technical Analyst</h5>
                       {/* <p>
                         Michael is one of our founders and Lead Trainers here at
@@ -295,15 +295,92 @@ export default function Home() {
           </div>
         </Section>
         <Section>
-          <Title title="Out Insights" />
+          <Title title='Out Insights' />
 
-          <div className="recent__blog">
-            <div className="row">
-              <div className="col-md-4 mx-auto">
-                <article className="article__card">
-
-                </article>
+          <div className='recent__blog'>
+            <div className='row'>
+              <div className='col-md-4 mx-auto'>
+                <Link href='/default'>
+                  <a>
+                    <article className='article__card'>
+                      <img
+                        src='./academy.jpg'
+                        alt='blogpost'
+                        className='article__img'
+                      />
+                      <div className='blog-text'>
+                        <h4 className='blog__title'>
+                          Introduction to forex trading...
+                        </h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Magnam placeat perspiciatis dolore.
+                        </p>
+                        {/* <Link href='/default'>
+                          <a className='btn'>Continue reading...</a>
+                        </Link> */}
+                      </div>
+                    </article>
+                  </a>
+                </Link>
               </div>
+
+              <div className='col-md-4 mx-auto'>
+                <Link href='/default'>
+                  <a>
+                    <article className='article__card'>
+                      <img
+                        src='./crypto.jpg'
+                        alt='blogpost'
+                        className='article__img'
+                      />
+                      <div className='blog-text'>
+                        <h4 className='blog__title'>
+                          Introduction to Cryptocurrency trading...
+                        </h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Magnam placeat perspiciatis dolore.
+                        </p>
+                        {/* <Link href='/default'>
+                          <a className='btn'>Continue reading...</a>
+                        </Link> */}
+                      </div>
+                    </article>
+                  </a>
+                </Link>
+              </div>
+
+              <div className='col-md-4 mx-auto'>
+                <Link href='/default'>
+                  <a>
+                    <article className='article__card'>
+                      <img
+                        src='./academy.jpg'
+                        alt='blogpost'
+                        className='article__img'
+                      />
+                      <div className='blog-text'>
+                        <h4 className='blog__title'>
+                          Introduction to forex trading...
+                        </h4>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Magnam placeat perspiciatis dolore.
+                        </p>
+                        {/* <Link href='/default'>
+                          <a className='btn'>Continue reading...</a>
+                        </Link> */}
+                      </div>
+                    </article>
+                  </a>
+                </Link>
+              </div>
+            </div>
+            <div className='blog__btn'>
+              <Link href='/default'>
+                <a>View blog</a>
+              </Link>
             </div>
           </div>
         </Section>
