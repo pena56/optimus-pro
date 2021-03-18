@@ -379,8 +379,73 @@ export default function Home() {
             </div>
             <div className='blog__btn'>
               <Link href='/default'>
-                <a>View blog</a>
+                <a>Discover more</a>
               </Link>
+            </div>
+          </div>
+        </Section>
+
+        <Section>
+          <Title title='Hear What others are saying' />
+          <div className='testimone'>
+            <div className='row'>
+              <div className='col-md-4 mx-auto'>
+                <div className='customer__card'>
+                  <p>
+                    The reason we worked with Relevant Software is that they
+                    were very proactive about getting information from us. Other
+                    companies move slowly, but these guys move fast which is
+                    what we liked about them. Before we even kicked off the
+                    project, we would go into a lot of detail. That was quite
+                    impressive for us.
+                  </p>
+                  <div className='user'>
+                    <img src='/user.jpg' alt='username' />
+                    <div>
+                      <h6 className='name'>Jokjon Drook</h6>
+                      <p>CTO Of Olive Geeks</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-4 mx-auto'>
+                <div className='customer__card'>
+                  <p>
+                    The reason we worked with Relevant Software is that they
+                    were very proactive about getting information from us. Other
+                    companies move slowly, but these guys move fast which is
+                    what we liked about them. Before we even kicked off the
+                    project, we would go into a lot of detail. That was quite
+                    impressive for us.
+                  </p>
+                  <div className='user'>
+                    <img src='/user.jpg' alt='username' />
+                    <div>
+                      <h6 className='name'>Jokjon Drook</h6>
+                      <p>CTO Of Olive Geeks</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-4 mx-auto'>
+                <div className='customer__card'>
+                  <p>
+                    The reason we worked with Relevant Software is that they
+                    were very proactive about getting information from us. Other
+                    companies move slowly, but these guys move fast which is
+                    what we liked about them. Before we even kicked off the
+                    project, we would go into a lot of detail. That was quite
+                    impressive for us.
+                  </p>
+                  <div className='user'>
+                    <img src='/user.jpg' alt='username' />
+                    <div>
+                      <h6 className='name'>Jokjon Drook</h6>
+                      <p>CTO Of Olive Geeks</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </Section>

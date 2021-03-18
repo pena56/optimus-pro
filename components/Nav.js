@@ -15,13 +15,13 @@ const Nav = ({toggleSidebar}) => {
             <a>About</a>
           </Link>
           <Link href="/default" className="nav__link">
-            <a>Course</a>
-          </Link>
-          <Link href="/default" className="nav__link">
             <a>Market</a>
           </Link>
           <Link href="/default" className="nav__link">
-            <a>Blog</a>
+            <a>Course</a>
+          </Link>
+          <Link href="/default" className="nav__link">
+            <a>Desk</a>
           </Link>
           <Link href="/default" className="nav__link">
             <a>Contact</a>
