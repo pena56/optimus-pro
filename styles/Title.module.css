@@ -1,11 +1,14 @@
 .title__section {
-
+  text-align: center;
+  width: 70%;
+  margin: 4rem auto 0rem;
 }
 
 .title {
   text-align: center;
   font-family: 'Lato', sans-serif;
   text-transform: capitalize;
+  color: #333;
 }
 
 .underline {
@@ -14,5 +17,13 @@
   /* background: #49a6e9; */
   background: red;
   margin:auto;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 980px) {
+  .title__section {
+    text-align: center;
+    width: 90%;
+    margin: 2rem auto;
+  }
 }

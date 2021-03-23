@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { FiMenu } from "react-icons/fi";
+import { FaUserAlt } from "react-icons/fa";
+import { MdShoppingCart } from 'react-icons/md'
 
 const Nav = ({toggleSidebar}) => {
   return (
@@ -17,7 +19,7 @@ const Nav = ({toggleSidebar}) => {
           <Link href="/default" className="nav__link">
             <a>Market</a>
           </Link>
-          <Link href="/default" className="nav__link">
+          <Link href="/courses" className="nav__link">
             <a>Course</a>
           </Link>
           <Link href="/default" className="nav__link">
@@ -26,8 +28,17 @@ const Nav = ({toggleSidebar}) => {
           <Link href="/default" className="nav__link">
             <a>Contact</a>
           </Link>
-          <Link href="/login" className="nav__link">
-            <a className="btn">Login</a>
+          {/* <Link href="/default" className="nav__link cart">
+            <a><MdShoppingCart className="user__icon" /></a>
+          </Link> */}
+          <Link href="/default" className="nav__link">
+            <a><FaUserAlt className="user__icon" /></a>
+          </Link>
+          {/* <Link href="/login" className="nav__link">
+            <a>Login</a>
+          </Link> */}
+          <Link href="/signup" className="nav__link">
+            <a className="action__btn">Sign up free</a>
           </Link>
         </nav>
         <FiMenu className="menu" onClick={toggleSidebar} />
