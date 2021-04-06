@@ -4,15 +4,15 @@ import { API_URL } from '@/lib/urls'
 import Section from '@/components/Section'
 import { BsBarChart, BsClipboardData } from 'react-icons/bs'
 import Head from 'next/head'
-// import { PlanContext } from '@/context/plans'
+import { PlanContext } from '@/context/plans'
 // import Layout from '@/components/Layout'
 
 const PlansPage = ({ plan }) => {
-  // const response = React.useContext(PlanContext)
-  // const { plans } = response
+  const response = React.useContext(PlanContext)
+  const { plans } = response
   // const point = plans.point
   console.log(plan)
-  // const { points } = plans
+  const { points } = plans
   // const router = useRouter()
   // const { id } = router.query
 
@@ -102,28 +102,28 @@ const PlansPage = ({ plan }) => {
   )
 }
 
-export async function getStaticProps({ params: { slug } }) {
-  const plan_res = await fetch(`${API_URL}/plans/?slug=${slug}`)
-  const found = await plan_res.json()
+// export async function getStaticProps({ params: { slug } }) {
+//   const plan_res = await fetch(`${API_URL}/plans/?slug=${slug}`)
+//   const found = await plan_res.json()
 
-  return {
-    props: {
-      plan: found[0],
-    },
-  }
-}
+//   return {
+//     props: {
+//       plan: found[0],
+//     },
+//   }
+// }
 
-export async function getStaticPaths() {
-  const plan_res = await fetch(`${API_URL}/plans/`)
+// export async function getStaticPaths() {
+//   const plan_res = await fetch(`${API_URL}/plans/`)
 
-  const plans = await plan_res.json()
+//   const plans = await plan_res.json()
 
-  return {
-    paths: plans.map((plan) => ({
-      params: { slug: String(plan.slug) },
-    })),
-    fallback: false, // Tell next to show 404 if the params is not matched
-  }
-}
+//   return {
+//     paths: plans.map((plan) => ({
+//       params: { slug: String(plan.slug) },
+//     })),
+//     fallback: false, // Tell next to show 404 if the params is not matched
+//   }
+// }
 
 export default PlansPage
