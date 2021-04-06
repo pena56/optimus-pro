@@ -13,9 +13,12 @@ const PlanCard = ({id, title, oldPrice, price, points, slug }) => {
         </div>
         <h4 className="del"><del>${oldPrice}</del></h4>
         <h2 className='amount'>${price}<small>/month</small></h2>
-        <Link href={`/plans/${slug}`}>
+        <Link href="https://surveyheart.com/form/6064dddc1c0c1a340be327f1">
           <a className='course_btn'>Sign me up</a>
         </Link>
+        {/* <Link href={`/plans/${slug}`}>
+          <a className='course_btn'>Sign me up</a>
+        </Link> */}
         <ul className='points'>
           
           {points.map((point) => {

@@ -15,9 +15,12 @@ const CourseCard = ({ image, title, amount, meta_description, slug }) => {
               <h4 className='course__title'>{title}</h4>
             <p>{meta_description}</p>
             {/* <p className='amount'>{formatPrice(amount)}</p> */}
-            <Link href={`/courses/${slug}`}>
+            <Link href="https://surveyheart.com/form/6064dddc1c0c1a340be327f1">
               <button className='course_btn'>Start now</button>
             </Link>
+            {/* <Link href={`/courses/${slug}`}>
+              <button className='course_btn'>Start now</button>
+            </Link> */}
           </div>
         </div>
       </a>

@@ -42,7 +42,7 @@ const SideNav = ({ isOpen, toggleSidebar, toggleContact }) => {
             </a>
           </Link>
         ) : (
-          <Link href='/login' className='nav__link'>
+          <Link href='https://surveyheart.com/form/6064dddc1c0c1a340be327f1' className='nav__link'>
             <a className='action__btn'>Sign up free</a>
           </Link>
         )}

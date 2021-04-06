@@ -7,7 +7,7 @@ import CourseList from '@/components/CourseList'
 const coursesPage = () => {
   const response = React.useContext(CourseContext)
 
-  console.log(response)
+  // console.log(response)
 
   return (
     <>

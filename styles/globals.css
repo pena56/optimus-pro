@@ -195,7 +195,7 @@ nav a {
 .course__hero {
   height: 60vh;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.602), rgba(63, 7, 7, 0.541)), url('../public/contactimg.jpg');
   background-position: top;
@@ -221,7 +221,7 @@ nav a {
 .about__hero {
   height: 30vh;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.602), rgba(63, 7, 7, 0.541)), url('../public/aboutus.jpg');
   background-position: top;
@@ -404,7 +404,7 @@ nav a {
   .course__hero {
     height: 60vh;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.404), rgba(63, 7, 7, 0.328)), url('../public/contactimg.jpg');
     background-position: top;
@@ -430,7 +430,7 @@ nav a {
   .about__hero {
     height: 60vh;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.753), rgba(63, 7, 7, 0.123)), url('../public/aboutus.jpg');
     background-position: left;
@@ -701,13 +701,7 @@ nav a {
   border-radius: 6px;
   margin-top: 2rem;
 }
-/* 
-.why__img{
-  height: 500px;
-  padding: 2rem;
-  background: red;
-  object-fit: cover;
-} */
+
 .why__img img {
   height: 650px;
   padding: 2rem;
@@ -1097,10 +1091,6 @@ nav a {
   font-weight: 900;
   font-size: 1.3rem;
   font-family: var(--ff-font);
-}
-
-.course__card .text p {
-  /* font-size: 1rem */
 }
 
 .course__card .text .course__title {
