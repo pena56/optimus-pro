@@ -20,7 +20,7 @@ const CourseDetails = () => {
         <Section>
           <h1 className='courseTitle'>Next.js Firebase - The Full Course</h1>
           <div className='video__player'>
-            <VideoPlayer />
+            {/* <VideoPlayer /> */}
           </div>
           <div className='meta_description'>
             <p>

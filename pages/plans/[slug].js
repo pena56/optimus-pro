@@ -1,11 +1,11 @@
 import React from 'react'
 import { API_URL } from '@/lib/urls'
-import { useRouter } from 'next/router'
+// import { useRouter } from 'next/router'
 import Section from '@/components/Section'
 import { BsBarChart, BsClipboardData } from 'react-icons/bs'
 import Head from 'next/head'
-import { PlanContext } from '@/context/plans'
-import Layout from '@/components/Layout'
+// import { PlanContext } from '@/context/plans'
+// import Layout from '@/components/Layout'
 
 const PlansPage = ({ plan }) => {
   // const response = React.useContext(PlanContext)
