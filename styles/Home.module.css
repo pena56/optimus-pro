@@ -61,11 +61,12 @@
   line-height: 1.15;
   font-family: 'Lato', sans-serif;
   margin-bottom: 2rem;
+  text-align: left;
 }
 
 .title,
 .description {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .description {
@@ -130,6 +131,13 @@
 }
 
 @media (max-width: 600px) {
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
   .grid {
     width: 100%;
     flex-direction: column;

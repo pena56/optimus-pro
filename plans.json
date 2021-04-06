@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "title": "Optimus Prime",
+    "price": 250,
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ducimus mollitia. Minima beatae quasi eius. Nobis exercitationem dolore quidem molestias sunt delectus? Quaerat ipsa nulla sapiente unde tenetur ut illo.",
+    "oldPrice": 500,
+    "meta_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ducimus mollitia. Minima beatae quasi eius. Nobis exercitationem dolore quidem molestias sunt delectus? Quaerat ipsa nulla sapiente unde tenetur ut illo.",
+    "slug": "optimus-prime",
+    "published_at": "2021-03-26T22:53:34.943Z",
+    "created_at": "2021-03-26T22:53:30.201Z",
+    "updated_at": "2021-03-28T14:17:13.097Z",
+    "points": [
+      {
+        "id": 1,
+        "list": "Time-saving plan for traders"
+      },
+      {
+        "id": 2,
+        "list": "3-5 weekly Signals on average"
+      },
+      {
+        "id": 4,
+        "list": " Crypto, forex, stocks, & commodities."
+      },
+      {
+        "id": 5,
+        "list": "Spot trades only."
+      },
+      {
+        "id": 6,
+        "list": "Telegram alerts."
+      },
+      {
+        "id": 3,
+        "list": "Basic support."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "optimus sliver",
+    "price": 125,
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ducimus mollitia. Minima beatae quasi eius. Nobis exercitationem dolore quidem molestias sunt delectus? Quaerat ipsa nulla sapiente unde tenetur ut illo.",
+    "oldPrice": 250,
+    "meta_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ducimus mollitia. Minima beatae quasi eius. Nobis exercitationem dolore quidem molestias sunt delectus? Quaerat ipsa nulla sapiente unde tenetur ut illo.",
+    "slug": "optimus-sliver",
+    "published_at": "2021-03-26T23:00:49.635Z",
+    "created_at": "2021-03-26T23:00:44.024Z",
+    "updated_at": "2021-03-28T14:14:57.487Z",
+    "points": [
+      {
+        "id": 7,
+        "list": "Time-saving plan for traders"
+      },
+      {
+        "id": 9,
+        "list": "5-10 weekly Signals on average"
+      },
+      {
+        "id": 11,
+        "list": " Crypto, forex, stocks, & commodities."
+      },
+      {
+        "id": 13,
+        "list": "Spot trades only."
+      },
+      {
+        "id": 8,
+        "list": " Telegram & Discord alerts"
+      },
+      {
+        "id": 14,
+        "list": "Trading Webinars"
+      },
+      {
+        "id": 10,
+        "list": " Reports"
+      },
+      {
+        "id": 12,
+        "list": "Mentorship insight"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "optimus gold",
+    "price": 200,
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ducimus mollitia. Minima beatae quasi eius. Nobis exercitationem dolore quidem molestias sunt delectus? Quaerat ipsa nulla sapiente unde tenetur ut illo.",
+    "oldPrice": 400,
+    "meta_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ducimus mollitia. Minima beatae quasi eius. Nobis exercitationem dolore quidem molestias sunt delectus? Quaerat ipsa nulla sapiente unde tenetur ut illo.",
+    "slug": "optimus-gold",
+    "published_at": "2021-03-26T23:04:01.164Z",
+    "created_at": "2021-03-26T23:03:58.437Z",
+    "updated_at": "2021-03-28T14:15:45.078Z",
+    "points": [
+      {
+        "id": 15,
+        "list": "All 2 membership plans included+"
+      },
+      {
+        "id": 20,
+        "list": "Trading Education for crypto & forex traders beginner-friendly."
+      },
+      {
+        "id": 21,
+        "list": "Crypto, forex, stocks, and commodities."
+      },
+      {
+        "id": 22,
+        "list": "Spot, margin, and futures"
+      },
+      {
+        "id": 16,
+        "list": "Frequent updates."
+      },
+      {
+        "id": 17,
+        "list": "Frequent updates."
+      },
+      {
+        "id": 18,
+        "list": "24/7 priority help. (Community Forum)"
+      },
+      {
+        "id": 19,
+        "list": " Frequent Reports."
+      },
+      {
+        "id": 23,
+        "list": "Closed webinars."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Optimus starter",
+    "price": 75,
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ducimus mollitia. Minima beatae quasi eius. Nobis exercitationem dolore quidem molestias sunt delectus? Quaerat ipsa nulla sapiente unde tenetur ut illo.",
+    "oldPrice": 150,
+    "meta_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, ducimus mollitia. Minima beatae quasi eius. Nobis",
+    "slug": "optimus-starter",
+    "published_at": "2021-03-26T23:06:53.823Z",
+    "created_at": "2021-03-26T23:06:48.385Z",
+    "updated_at": "2021-03-28T14:14:02.036Z",
+    "points": [
+      {
+        "id": 24,
+        "list": " All three membership plans included+"
+      },
+      {
+        "id": 26,
+        "list": "1-on-1 personalized mentorship"
+      },
+      {
+        "id": 29,
+        "list": "Customized signals designed to meet your goals."
+      },
+      {
+        "id": 30,
+        "list": "Crypto, forex, stocks, and commodities."
+      },
+      {
+        "id": 25,
+        "list": "Spot, margin, and futures"
+      },
+      {
+        "id": 27,
+        "list": "Personalized updates"
+      },
+      {
+        "id": 28,
+        "list": " 24/7 priority help"
+      }
+    ]
+  }
+]
