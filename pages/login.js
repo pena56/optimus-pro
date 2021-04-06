@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react'
-import Layout from '@/components/Layout'
-import { useForm } from 'react-hook-form'
-import loginUser from '@/lib/loginUser'
-import registerUser from '@/lib/registerUser'
+// import Layout from '@/components/Layout'
+// import { useForm } from 'react-hook-form'
+// import loginUser from '@/lib/loginUser'
+// import registerUser from '@/lib/registerUser'
 import AuthContext from '@/context/AuthContext'
 
 const login = () => {

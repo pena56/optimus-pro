@@ -15,7 +15,7 @@ const CartProvider = ({children}) => {
       return (total += cartItems)
     }, 0)
     setCartItems(newCartItems)
-    console.log(newCartItems)
+    // console.log(newCartItems)
 
     // cart total
     let newTotal = cart.reduce((total, cartItem) => {

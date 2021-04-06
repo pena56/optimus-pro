@@ -151,6 +151,13 @@ nav a {
   /* text-transform: uppercase; */
 }
 
+.nav__link {
+  background: transparent;
+  border: none;
+  outline: none;
+  outline: none !important
+}
+
 .nav a:hover {
   color: var(--actionColor);
   font-weight: 600;

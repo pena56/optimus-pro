@@ -11,7 +11,7 @@ export default function PlanList(){
 
   const { plans } = response
 
-  console.log(response.plans)
+  // console.log(response.plans)
 
   return (
     <div className='sub__section'>

@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
-import { MdContactPhone, MdShoppingCart } from 'react-icons/md'
+// import { MdContactPhone, MdShoppingCart } from 'react-icons/md'
 import { fromImgToUrl } from '@/lib/urls'
-import { formatPrice } from '@/utils/helpers'
+// import { formatPrice } from '@/utils/helpers'
 
 const CourseCard = ({ image, title, amount, meta_description, slug }) => {
   return (

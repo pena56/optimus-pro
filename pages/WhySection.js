@@ -1,5 +1,4 @@
 import Section from '@/components/Section'
-import SectionTitle from '@/components/SectionTitle'
 import React from 'react'
 import aboutData from '../about'
 import WhatCard from '@/components/WhatCard'

@@ -1,16 +1,8 @@
 import Section from '@/components/Section'
-import SectionTitle from '@/components/SectionTitle'
 import React from 'react'
-import { BiBrightness, BiAtom, BiBarChart } from 'react-icons/bi'
-import { MdSchool } from 'react-icons/md'
-import { GiTeacher } from 'react-icons/gi'
-import { FaUsers } from 'react-icons/fa'
-import aboutData from '../about'
-import WhatCard from '@/components/WhatCard'
 import WhySection from './WhySection'
 
 const about = () => {
-  const [about, setAbout] = React.useState(aboutData)
 
   return (
     <>
@@ -39,6 +31,26 @@ const about = () => {
                     knowledge, building competent trading skills and presenting
                     highly profitable opportunities in the financial markets.
                   </p>
+                  <h4 className='about_title'>Our Vission</h4>
+                  <p>To become Africans leading innovative blockchain technology company and a financial hub; solving financial problems, providing opportunities for people, hence making trading and investment possible in the financial markets for everyone.</p>
+                  <h4 className='about_title'>Our Goal</h4>
+                  <ol>
+                  <li>To become a leading blockchain technology company which provides adequate education to help it’s customers make the right trading and Investment decisions.</li>
+                  <li>To provide professional counsel for startup corporations.</li>
+                  <li>To help our members become financially free by creating another means of income through consistent profitable trading and investing in the financial markets.</li>
+                  <li>To educate people about a life of opportunities and to create job opportunities.</li>
+                  </ol>
+
+                  <h4 className='about_title'>Our Mission</h4>
+                  <p>To build a platform that enables each member not only build another source of income but also to create wealth for themselves. </p>
+                  <ul>
+                    <li>☆Values</li>
+                    <li>☆Integrity</li>
+                    <li>☆Excellence</li>
+                    <li>☆Passion</li>
+                    <li>☆Accountability</li>
+                    <li>☆Client satisfaction and Consistency</li>
+                  </ul>
                 </div>
               </div>
             </div>

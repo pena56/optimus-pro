@@ -16,7 +16,6 @@ const Layout = ({children}) => {
   const toggleContact = () => {
     setIsClose(!isClose)
     setIsOpen(false)
-    console.log('Heyy')
   }
   return (
     <>

@@ -27,7 +27,7 @@ const SideNav = ({ isOpen, toggleSidebar, toggleContact }) => {
         <Link href='/default' className='nav__link'>
           <a>Desk</a>
         </Link>
-        <Link href='#' className='nav__link'>
+        <Link href='/' className='nav__link'>
           <a onClick={toggleContact}>Contact</a>
         </Link>
         <Link href='/default' className='nav__link cart'>

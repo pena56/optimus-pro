@@ -1,8 +1,6 @@
 import React from 'react'
 import CourseCard from './CourseCard'
-import Link from 'next/link'
 import { CourseContext } from '@/context/course'
-import Section from './Section'
 
 const CourseList = () => {
   const response = React.useContext(CourseContext)

@@ -32,9 +32,9 @@ const Nav = ({ toggleSidebar, toggleContact }) => {
           <Link href='/default' className='nav__link'>
             <a>Desk</a>
           </Link>
-          <Link href='#' className='nav__link' >
+          <button className='nav__link' >
             <a onClick={toggleContact} >Contact</a>
-          </Link>
+          </button>
           {/* <Link href='/cart' className='nav__link cart'>
             <a>
               <MdShoppingCart className='user__icon' />

@@ -2,7 +2,6 @@ import React from 'react'
 import Hero from '@/components/Hero'
 import Section from '@/components/Section'
 import Title from '@/components/Title'
-import Head from 'next/head'
 import Link from 'next/link'
 import { CourseContext } from '@/context/course'
 import FeaturedCourse from '@/components/FeaturedCourses'
@@ -35,6 +34,8 @@ export default function Home() {
                       competent trading skills and presenting highly profitable
                       opportunities in the financial markets.
                     </p>
+                    <p><b>☆Mission</b> Is to build a platform that enables each member not only build another source of income but also to create wealth for themselves.<b> ☆Values  ☆Integrity ☆Excellence ☆Passion
+                     ☆Accountability ☆Commitment ☆Client satisfaction and ☆Consistency.</b></p>
                     <Link href="/about">
                       <a className="read_btn"> Read more...</a>
                     </Link>

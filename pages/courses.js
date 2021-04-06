@@ -1,10 +1,6 @@
 // import Layout from '@/components/Layout'
 import Section from '@/components/Section'
 import React from 'react'
-import Head from 'next/head'
-import SectionTitle from '@/components/SectionTitle'
-import Link from 'next/link'
-import { MdShoppingCart } from 'react-icons/md'
 import { CourseContext } from '@/context/course'
 import CourseList from '@/components/CourseList'
 

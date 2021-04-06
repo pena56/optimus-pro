@@ -3,21 +3,20 @@ import CourseProvider from '@/context/course'
 import PlanProvider from '@/context/plans'
 import { AuthProvider } from '@/context/AuthContext'
 import { CartProvider } from '@/context/cart'
-import Nav from '@/components/Nav'
 import Layout from '@/components/Layout'
 
 function MyApp({ Component, pageProps }) {
   return (
     <AuthProvider>
-      <CartProvider>
-        <PlanProvider>
-          <CourseProvider>
-            <Layout>
+      <Layout>
+        <CartProvider>
+          <PlanProvider>
+            <CourseProvider>
               <Component {...pageProps} />
-            </Layout>
-          </CourseProvider>
-        </PlanProvider>
-      </CartProvider>
+            </CourseProvider>
+          </PlanProvider>
+        </CartProvider>
+      </Layout>
     </AuthProvider>
   )
 }

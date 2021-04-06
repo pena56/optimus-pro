@@ -1,5 +1,4 @@
 import { useContext } from 'react'
-import Layout from '@/components/Layout'
 import Section from '@/components/Section'
 import EmptyCart from '@/components/EmptyCart'
 import CartItem from '@/components/CartItem'

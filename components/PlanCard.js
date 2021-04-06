@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { BsBarChart, BsClipboardData, BsClockFill, BsColumnsGap, BsExclude, BsServer } from 'react-icons/bs'
 
 const PlanCard = ({id, title, oldPrice, price, points, slug }) => {
-  console.log(points)
+  // console.log(points)
   return (
     <div className='col-md-6 col-lg-6 col-xl-4 mx-auto'>
       <div className='sub__card'>
