@@ -1,24 +1,24 @@
-import '../styles/globals.css'
-import CourseProvider from '@/context/course'
-import PlanProvider from '@/context/plans'
-import { AuthProvider } from '@/context/AuthContext'
-import { CartProvider } from '@/context/cart'
-import Layout from '@/components/Layout'
+import '../styles/globals.css';
+import CourseProvider from '@/context/course';
+import PlanProvider from '@/context/plans';
+import { AuthProvider } from '@/context/AuthContext';
+import { CartProvider } from '@/context/cart';
+import Layout from '@/components/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (
     <AuthProvider>
-      <Layout>
-        <CartProvider>
+      <CartProvider>
+        <Layout>
           <PlanProvider>
             <CourseProvider>
               <Component {...pageProps} />
             </CourseProvider>
           </PlanProvider>
-        </CartProvider>
-      </Layout>
+        </Layout>
+      </CartProvider>
     </AuthProvider>
-  )
+  );
 }
 
 // export async function getStaticProps(data) {
@@ -34,4 +34,4 @@ function MyApp({ Component, pageProps }) {
 //   }
 // }
 
-export default MyApp
+export default MyApp;

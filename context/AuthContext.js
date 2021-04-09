@@ -7,20 +7,20 @@ import axios from 'axios'
 const AuthContext = createContext()
 
 export const AuthProvider = (props) => {
-  const [user, setUser] = useState(false)
+  const [user, setUser] = useState(true)
   const router = useRouter()
 
   /**
    * Add email to user
    * @param {String} email
    */
-  const loginUser = async (username, email, password) => {
-    setUser({ username, email, password })
+  const loginUser = async (data) => {
+    setUser(data)
     router.push('/')
   }
 
-  const registerUser = async (username, email, password) => {
-    setUser({ username, email, password })
+  const registerUser = async (data) => {
+    setUser({data})
   }
 
   /**

@@ -7,7 +7,7 @@ import CourseList from '@/components/CourseList'
 const coursesPage = () => {
   const response = React.useContext(CourseContext)
 
-  // console.log(response)
+  console.log(response)
 
   return (
     <>
@@ -21,11 +21,6 @@ const coursesPage = () => {
       <div className='coures__section'>
         <Section>
           <CourseList />
-          {/* <div className='blog__btn'>
-            <Link href='/courses'>
-              <a>Discover more Courses</a>
-            </Link>
-          </div> */}
         </Section>
       </div>
     </>

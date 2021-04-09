@@ -1,6 +1,6 @@
 import Section from '@/components/Section'
 import React from 'react'
-import WhySection from './WhySection'
+import WhySection from '../components/WhySection'
 
 const about = () => {
 

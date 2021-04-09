@@ -6,7 +6,7 @@ import Link from 'next/link'
 import { CourseContext } from '@/context/course'
 import FeaturedCourse from '@/components/FeaturedCourses'
 import PlanList from '@/components/PlanList'
-import WhySection from './WhySection'
+import WhySection from '../components/WhySection'
 
 export default function Home() {
   const data = React.useContext(CourseContext)
@@ -15,6 +15,7 @@ export default function Home() {
     <div>
       <>
         <Hero text=' let us help you achieve financial freedom.' />
+        
 
         <section className='about__section'>
           <Section>

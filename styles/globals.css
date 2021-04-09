@@ -131,7 +131,11 @@ p {
 
 header {
   padding: 1rem 0;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: rgba(12, 1, 1, 0.691);
+    z-index: 1;
 }
 header .section-center {
   display: flex;
@@ -155,6 +159,7 @@ nav a {
   background: transparent;
   border: none;
   outline: none;
+  color: #fff;
   outline: none !important
 }
 
@@ -166,16 +171,18 @@ nav a {
 .menu {
   font-size: 2rem;
   display: block;
+  color: #fff;
 }
 
 .logo {
   width: 100px;
   font-family: var(--ff-font);
   margin: 0;
-  color: var(--secondaryColor);
+  color: #fff;
+  text-transform: uppercase;
 }
 .logo span {
-  color: var(--actionColor);
+  color: var(--secondaryColor);
 }
 
 .hero {
@@ -210,6 +217,10 @@ nav a {
 .course__hero  .container .title {
   font-family: 'Lato', sans-serif;
   text-align: left;
+}
+
+.details__section {
+  margin-top: 4rem;
 }
 
 
@@ -369,10 +380,10 @@ nav a {
   
   header {
     padding: 1rem 0;
-    position: fixed;
+    position: absolute;
     top: 0;
     width: 100%;
-    background: #fff;
+    background: rgba(12, 1, 1, 0.691);
     z-index: 1;
   }
   header .section-center {
@@ -383,7 +394,7 @@ nav a {
   }
 
   .hero {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -458,8 +469,10 @@ nav a {
 
   nav a {
     margin-left: 2rem;
-    color: #131212;
+    color: #ffff;
     font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
     transition: var(--transition);
   }
   
@@ -549,6 +562,7 @@ nav a {
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin: 4rem 0;
 }
 
 .login-section .form {
@@ -848,6 +862,16 @@ nav a {
 .article__card .blog__title {
   /* font-family: 'Lato', sans-serif; */
   font-weight: 900;
+}
+
+.nav__btn {
+  color: #fff;
+  background: transparent;
+  border: solid 2px var(--secondaryColor);
+  padding: 0.5rem 2rem;
+  border-radius: 6px;
+  text-transform: uppercase;
+  transition: all 0.7s ease-in; 
 }
 
 .blog__btn {
@@ -1299,7 +1323,7 @@ nav a {
 }
 
 .singlePage_section {
-  margin-top: 1rem;
+  margin-top: 3rem;
 
 }
  .single_title{

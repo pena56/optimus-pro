@@ -1,5 +1,5 @@
 .video_card {
-  background: #fff;
+  background: #eeee;
   border-radius: 6px;
 }
 
@@ -12,6 +12,10 @@
 .videoContainer {
   position: relative;
   /* background: #eee; */
+}
+
+.videoTag {
+  background: #ccc;
 }
 
 .videoNote {
